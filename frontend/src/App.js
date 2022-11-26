@@ -7,7 +7,8 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          {/* make a dropdown to display users  */}
+          {/* use a plotting lib to make plot */}
         </p>
         <a
           className="App-link"
