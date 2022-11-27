@@ -6,7 +6,7 @@ This project uses bootstrap components and the Plotly.js react component.
 First, follow instructions in `/backend/README.md` to set up the python server. Then in the `/backend` directory run 
  #### `python main.py`
 
-Open a new terminal and in the /frontend directory run 
+Open a new terminal and in the `/frontend` directory run 
  #### `npm install` to install dependencies
  #### `npm start`
 
@@ -28,7 +28,9 @@ It should address these questions, as well as any other product or design concer
 2. As mentioned before, an API endpoint can be made that maps each metric's json key to its desired display name. Also, an API endpoint where userIDs are mapped to the patient's name would allow for the user selection dropdown to be more usable, since it would be able to display names rather than IDs. The current provided data does not include the patient name.
 
 3. With the current amount of data I did not encounter performance issues. If there were many more points there could potentially arise performance issues,
-since every time a new measurement or userID is selected the frontend goes through every point in the data to identify points that need to be graphed (that is, the points that match the current userID and measurement selections). One solution that would make this process more efficient would be to group the points by userID (using an object, probably) on initial render so that there are fewer points to process when identifying points that need to be graphed.
+since every time a new measurement or userID is selected the frontend goes through every point in the data to identify points that need to be graphed (that is, the points that match the current userID and measurement selections). 
+
+One solution that would make this process more efficient would be to group the points by userID (using an object, probably) on initial render so that there are fewer points to process when identifying points that need to be graphed.
 
 4. It would be nice to be able to search the userID dropdown because it could become hard to use with more userIDs. As previously mentioned, it would also be good to match the userIDs to the patient's name to make the user selection dropdown to be more usable.
 
