@@ -6,10 +6,9 @@ This project uses React for its frontend, including React bootstrap components a
 First, follow instructions in `/backend/README.md` to set up the python server. Then in the `/backend` directory run 
  #### `python main.py`
 
-[Install React](https://react-bootstrap.github.io/getting-started/introduction/) if it has not been previously installed. 
 Open a new terminal and in the `/frontend` directory run 
  #### `npm install` to install dependencies
- #### `npm start`
+ #### `npm start` opens the frontend at [http://localhost:3000](http://localhost:3000)
 
 ## Task 2
 Suppose new data points are added and the UI needs to be updated.
