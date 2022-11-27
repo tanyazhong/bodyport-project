@@ -4,11 +4,11 @@ This project uses bootstrap components and the Plotly.js react component.
 
 ## Running the Project
 First, follow instructions in `/backend/README.md` to set up the python server. Then in the `/backend` directory run 
- `python main.py`
+ # `python main.py`
 
 Open a new terminal and in the /frontend directory run 
- `npm install` to install dependencies
- `npm start`
+ # `npm install` to install dependencies
+ # `npm start`
 
 ## Task 2
 Suppose new data points are added and the UI needs to be updated.
