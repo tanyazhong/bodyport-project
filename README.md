@@ -1,11 +1,12 @@
 # About This Project
 This project was developed for the Bodyport takehome assessment. It displays a frontend dashboard that plots health datapoints. 
-This project uses bootstrap components and the Plotly.js react component.
+This project uses React for its frontend, including React bootstrap components and the Plotly.js react component.
 
 ## Running the Project
 First, follow instructions in `/backend/README.md` to set up the python server. Then in the `/backend` directory run 
  #### `python main.py`
 
+[Install React](https://react-bootstrap.github.io/getting-started/introduction/) if it has not been previously installed. 
 Open a new terminal and in the `/frontend` directory run 
  #### `npm install` to install dependencies
  #### `npm start`
